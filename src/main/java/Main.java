@@ -1,5 +1,6 @@
 public class Main {
     static void main() {
-        System.out.println("hello");
+        Person firstPerson = new Person("Ivan", 12);
+        System.out.println(firstPerson);
     }
 }
