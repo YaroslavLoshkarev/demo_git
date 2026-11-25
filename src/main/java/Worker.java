@@ -6,4 +6,7 @@ public class Worker extends Person{
         this.job = job;
     }
 
+    public String getJob() {
+        return job;
+    }
 }
