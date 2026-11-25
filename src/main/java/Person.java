@@ -10,4 +10,12 @@ public class Person {
     public String toString() {
         return String.format("Person %s with age %d", name, age);
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
